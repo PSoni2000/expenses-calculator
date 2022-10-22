@@ -1,6 +1,6 @@
 # About Project App
 
-RecordMyExpenses is a basic Expenses Calculator app which let you store your expenses in your Web browser(localStorage). And prepare a bar chart dynamically to show your expenses month wise in filtered Year.
+Expenses Calculator is a basic Expenses Calculator app which let you store your expenses in your Web browser(localStorage). And prepare a bar chart dynamically to show your expenses month wise in filtered Year.
 
 ## Language / Library Used
 
