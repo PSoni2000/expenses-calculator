@@ -2,6 +2,11 @@
 
 Expenses Calculator is a basic Expenses Calculator app which let you store your expenses in your Web browser(localStorage). And prepare a bar chart dynamically to show your expenses month wise in filtered Year.
 
+## Live App link
+
+<a href="https://PSoni2000.github.io/expenses-calculator"
+target="_blank" style='font-size:1.2rem; font-weight:bold;'>Expenses Calculator</a>
+
 ## Language / Library Used
 
 1. React JS
