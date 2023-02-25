@@ -5,7 +5,9 @@ import "./ExpenseForm.css";
 const ExpenseForm = (props) => {
 	const [enteredTitle, setEnteredTitle] = useState("");
 	const [enteredAmount, setEnteredAmount] = useState("");
-	const [enteredDate, setEnteredDate] = useState("");
+	const [enteredDate, setEnteredDate] = useState(
+		new Date().toISOString().split("T")[0]
+	);
 	// const [userInput, setUserInput] = useState({
 	//   enteredTitle: '',
 	//   enteredAmount: '',
@@ -80,7 +82,7 @@ const ExpenseForm = (props) => {
 					<input
 						type="date"
 						min="2019-01-01"
-						max="2022-12-31"
+						max={new Date().toISOString().split("T")[0]}
 						value={enteredDate}
 						onChange={dateChangeHandler}
 					/>
